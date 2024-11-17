@@ -1,0 +1,45 @@
+:root{
+    --main-color: lightgrey;
+}
+
+tbody tr td.other:first-child{
+    background-color: var(--main-color);
+}
+tbody tr td.other:last-child{
+    background-color: var(--main-color);
+}
+
+tbody tr td:first-child{
+    background-color: rgb(255, 220, 220);
+}
+
+tbody tr td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.vrijedag{
+    background-color:  rgb(250,120,120);
+}
+
+thead tr{
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+
+caption{
+    background-color: rgb(170,170,200);
+}
+
+td{
+    border-style: dotted;
+    border-width: 1px;
+}
+
+.other{
+    background-color: lightgrey;
+}
+
+.underline{
+    text-decoration: underline;
+    color: blue;
+}
